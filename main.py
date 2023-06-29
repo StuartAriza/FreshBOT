@@ -1,4 +1,5 @@
 import discord
+import random
 
 class MyClient(discord.Client):
     async def on_ready(self):
